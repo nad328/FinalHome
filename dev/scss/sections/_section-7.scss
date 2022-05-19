@@ -1,0 +1,43 @@
+/* =============
+    Section 7
+============= */
+#section-7 {
+    background-color: $lightGrey;
+    .content-grid {
+        display: grid;
+        grid-template-areas: ". section-7 .";
+        grid-template-columns: auto 600px auto;
+        text-align: center;
+
+        >div {
+            grid-area: section-7;
+
+            .instructions {
+                margin-top: 20px;
+
+                div {
+                    background-color: $purple;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                    text-align: center;
+
+                    h1 {
+                        font-size: rem-calc(25);
+                        color: $white;
+                    }
+                }
+            }
+            p:last-of-type{
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .image-grid  {
+        text-align: center;
+        img {
+            margin-top: 20px;
+            width: 60%;
+        }
+    }
+}

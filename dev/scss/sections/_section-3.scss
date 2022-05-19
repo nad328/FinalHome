@@ -1,0 +1,61 @@
+/* =============
+    Section 3
+============= */
+#section-3 {
+    align-items: center;
+    background-color: $lightGrey;
+    display: flex;
+    justify-content: center;
+
+    .grid-content {
+        display: grid;
+        grid-template-areas: ". section-3 .";
+        grid-template-columns: auto 600px auto;
+        text-align: center;
+
+        section {
+            grid-area: section-3;
+            background-color: $white;
+            padding: 20px;
+            border: 1px solid $purple;
+
+            div {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                margin: 0 auto 20px;
+
+                i {
+                    color: $black;
+                    font-size: rem-calc(40);
+                    margin: 0 10px;
+                }
+            }
+
+            article {
+                border-top: 1px solid $black;
+                margin-top: 20px;
+                padding-top: 10px;
+
+                h3{
+                    color: $purple;
+                    margin-bottom: 10px;
+                }
+
+                ul{
+                    text-align: left;
+
+                    li{
+                        margin-bottom: 10px;
+                        display: flex;
+                        justify-content: left;
+                        align-items: flex-start;
+                        h5{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+/* =============
+    Section 4
+============= */
+#section-4 {
+    .content-grid {
+        display: grid;
+        grid-template-areas: ". section-4 .";
+        grid-template-columns: auto 600px auto;
+        text-align: center;
+
+        >div {
+            grid-area: section-4;
+
+            .instructions {
+                margin-top: 20px;
+
+                div {
+                    background-color: $purple;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                    text-align: center;
+
+                    h1 {
+                        font-size: rem-calc(25);
+                        color: $white;
+                    }
+                }
+            }
+
+            article{
+                a:link,
+                a:visited {
+                    background-color: $black;
+                    color: $white;
+                    display: inline-block;
+                    margin-top: 20px;
+                    padding: 10px;
+
+                    i {
+                        color: $white;
+                        margin-right: 10px;
+                    }
+                }
+
+                a:hover,
+                a:active {
+                    background-color: $purple;
+
+                    i {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    .image-grid {
+        text-align: center;
+
+        img {
+            margin-top: 20px;
+            width: 60%;
+        }
+    }
+}

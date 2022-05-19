@@ -1,0 +1,42 @@
+/* =============
+    Section 2
+============= */
+#section-2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .grid-content {
+        display: grid;
+        grid-template-areas: ". section-2 .";
+        grid-template-columns: auto 600px auto;
+        text-align: center;
+
+        section {
+            grid-area: section-2;
+
+
+            div {
+                align-items: center;
+                background-color: $purple;
+                border-radius: 70px;
+                display: flex;
+                height: 70px;
+                justify-content: center;
+                margin: 0 auto 20px;
+                width: 70px;
+
+                i {
+                    color: $white;
+                    font-size: rem-calc(30);
+                }
+            }
+
+            article {
+                border-top: 1px solid $black;
+                margin-top: 20px;
+                padding-top: 10px;
+            }
+        }
+    }
+}

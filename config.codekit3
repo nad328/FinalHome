@@ -4,11 +4,19 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "D821A712-A0EA-4532-98D9-9AEF1D5652A9"
+		"uuidString": "EFDB987F-B476-45B7-92CD-444B77D9CB91"
 		}
 	],
-"creatorBuild": "32137",
+"creatorBuild": "31934",
 "files": {
+	"/assets/screens.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/screens.psd",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18,6 +26,71 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/deploy/img/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/screen-1.jpg": {
+		"ft": 16384,
+		"iS": 314460,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/screen-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/screen-2.jpg": {
+		"ft": 16384,
+		"iS": 97918,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/screen-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/screen-3.jpg": {
+		"ft": 16384,
+		"iS": 316423,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/screen-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/screen-4.jpg": {
+		"ft": 16384,
+		"iS": 202889,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/screen-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/screen-5.jpg": {
+		"ft": 16384,
+		"iS": 204985,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/screen-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -57,222 +130,252 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/section-2.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/section-2-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/section-4.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/section-4-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_base.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/base/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_normalize.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/base/_typography.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/components/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/components/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_forms.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/components/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/helpers/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/helpers/_mixins.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/helpers/_variables.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_footer.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/sections/_section-1.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-1.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/sections/_section-2.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-2.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/sections/_section-3.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-3.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/scss/sections/_section-4.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-4.css",
 		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-5.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-6.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-7.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-7.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-8.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-8.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"ec": 1,
+		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/deploy/css/styles.css",
 		"oF": 2,
 		"oS": 0,
-		"sct": 1
+		"uL": 1
 		},
 	"/dev/section-1.kit": {
 		"cB": 0,
@@ -305,6 +408,38 @@
 		"oA": 1,
 		"oAP": "/dev/section-4.html",
 		"oF": 0
+		},
+	"/dev/section-5.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-5.html",
+		"oF": 0
+		},
+	"/dev/section-6.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-6.html",
+		"oF": 0
+		},
+	"/dev/section-7.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-7.html",
+		"oF": 1
+		},
+	"/dev/section-8.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-8.html",
+		"oF": 1
 		}
 	},
 "hooks": [
@@ -312,10 +447,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 606340463.18639195,
-	"displayValue": "1. Files and Folders",
+	"creationDate": 606851060.70603704,
+	"displayValue": "1. GitHub",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-pink",
+	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -754,7 +889,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 8193,
+	"esLintEnvironmentsMask": 1,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -911,10 +1046,6 @@
 		"global-require": {
 			"active": 0,
 			"optionString": ""
-			},
-		"grouped-accessor-pairs": {
-			"active": 0,
-			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
 			"active": 0,
@@ -1081,7 +1212,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -1091,10 +1222,6 @@
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
-			},
-		"no-constructor-return": {
-			"active": 0,
-			"optionString": ""
 			},
 		"no-continue": {
 			"active": 0,
@@ -1121,10 +1248,6 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
-			},
-		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1428,10 +1551,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"no-setter-return": {
-			"active": 1,
-			"optionString": ""
-			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1636,10 +1755,6 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
-		"prefer-exponentiation-operator": {
-			"active": 0,
-			"optionString": ""
-			},
 		"prefer-named-capture-group": {
 			"active": 0,
 			"optionString": ""
@@ -1817,7 +1932,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap",
+	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
@@ -2336,13 +2451,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"compilerType": 1,
 		"createSourceMap": 0,
+		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
+		"shouldRunBless": 0,
+		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

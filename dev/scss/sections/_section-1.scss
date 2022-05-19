@@ -1,0 +1,30 @@
+/* =============
+    Section 1
+============= */
+#section-1 {
+    align-items: center;
+    background-color: $purple;
+    display: flex;
+    justify-content: center;
+
+    .grid-content {
+        text-align: center;
+        color: $white;
+        display: flex;
+        font-size: rem-calc(30);
+        justify-content: center;
+
+        section{
+            
+            i{
+                font-size: rem-calc(70);
+            }
+
+            h1 {
+                color: $white;
+                font-size: rem-calc(45);
+                font-weight: 300;
+            }
+        }
+    }
+}

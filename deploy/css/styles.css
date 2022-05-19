@@ -321,6 +321,10 @@ ul {
   ul li {
     list-style: none; }
 
+a {
+  text-decoration: none;
+  transition: 0.25s; }
+
 .container-grid {
   display: grid;
   grid-template-columns: auto 1200px auto;
@@ -339,7 +343,7 @@ ul {
 body {
   font-family: 'Montserrat', sans-serif; }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   margin: 0;
   padding: 0; }
 
@@ -353,12 +357,6 @@ p {
 /* =============
     Buttons
 ============= */
-button {
-  cursor: pointer; }
-
-button:focus {
-  outline: none; }
-
 /* =============
     Forms
 ============= */
@@ -384,207 +382,253 @@ textarea {
     Footer
 ============= */
 /* =============
-   Section 1
+    Section 1
 ============= */
 #section-1 {
   align-items: center;
-  background-color: #56c4cf;
+  background-color: #692b88;
   display: flex;
   justify-content: center; }
   #section-1 .grid-content {
+    text-align: center;
     color: #fff;
-    text-align: center; }
-    #section-1 .grid-content div {
-      display: flex;
-      font-size: 1.875rem;
-      justify-content: center; }
-      #section-1 .grid-content div i {
-        font-size: 3.125rem; }
-      #section-1 .grid-content div p {
-        margin: 10px 10px; }
-    #section-1 .grid-content h1 {
+    display: flex;
+    font-size: 1.875rem;
+    justify-content: center; }
+    #section-1 .grid-content section i {
+      font-size: 4.375rem; }
+    #section-1 .grid-content section h1 {
       color: #fff;
       font-size: 2.8125rem;
-      font-weight: 300;
-      margin-top: 20px; }
+      font-weight: 300; }
 
 /* =============
-   Section 2
+    Section 2
 ============= */
 #section-2 {
-  background-color: #f2f3f7; }
-  #section-2 #file-structure {
-    background-color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+  #section-2 .grid-content {
     display: grid;
-    grid-template-areas: "file-title file-title file-title" "file-one file-two file-three";
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%; }
-    #section-2 #file-structure section:nth-child(1) {
-      border-bottom: 1px solid #000;
-      border-right: none;
-      grid-area: file-title;
-      margin-bottom: 20px;
-      text-align: center; }
-      #section-2 #file-structure section:nth-child(1) h1 span {
-        color: #56c4cf; }
-    #section-2 #file-structure section:nth-child(2) {
-      grid-area: file-one; }
-    #section-2 #file-structure #folder-btns {
-      grid-area: file-two; }
-      #section-2 #file-structure #folder-btns ul li {
-        padding: 0; }
-        #section-2 #file-structure #folder-btns ul li button {
-          width: 100%;
-          display: flex;
-          border: none;
-          transition: 0.25s;
-          padding: 10px 10px; }
-        #section-2 #file-structure #folder-btns ul li button:hover {
-          background-color: #56c4cf;
-          color: #fff; }
-    #section-2 #file-structure section:nth-child(4) {
-      border: none;
-      grid-area: file-three; }
-    #section-2 #file-structure section {
-      border-right: 1px solid #000;
-      padding: 10px; }
-      #section-2 #file-structure section ul li {
+    grid-template-areas: ". section-2 .";
+    grid-template-columns: auto 600px auto;
+    text-align: center; }
+    #section-2 .grid-content section {
+      grid-area: section-2; }
+      #section-2 .grid-content section div {
+        align-items: center;
+        background-color: #692b88;
+        border-radius: 70px;
         display: flex;
-        padding: 10px; }
-        #section-2 #file-structure section ul li h2 {
-          font-size: 1rem;
-          font-weight: 300;
-          margin-left: 10px; }
-  #section-2 .selected-btn {
-    background-color: #56c4cf;
-    color: #fff; }
+        height: 70px;
+        justify-content: center;
+        margin: 0 auto 20px;
+        width: 70px; }
+        #section-2 .grid-content section div i {
+          color: #fff;
+          font-size: 1.875rem; }
+      #section-2 .grid-content section article {
+        border-top: 1px solid #000;
+        margin-top: 20px;
+        padding-top: 10px; }
 
 /* =============
-   Section 3
+    Section 3
 ============= */
 #section-3 {
-  background-color: #56c4cf; }
-  #section-3 #root-title-container {
-    color: #fff;
-    text-align: center; }
-    #section-3 #root-title-container h1 {
-      margin-bottom: 10px; }
-      #section-3 #root-title-container h1 span {
-        font-size: 1.25rem; }
-  #section-3 article {
+  align-items: center;
+  background-color: #f2f3f7;
+  display: flex;
+  justify-content: center; }
+  #section-3 .grid-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 20px;
+    grid-template-areas: ". section-3 .";
+    grid-template-columns: auto 600px auto;
     text-align: center; }
-    #section-3 article > section {
-      color: #fff; }
-      #section-3 article > section div {
-        padding: 10px; }
-        #section-3 article > section div h1 {
-          font-weight: 300; }
-        #section-3 article > section div section {
-          display: flex;
-          justify-content: center;
-          margin-bottom: 10px;
-          padding-top: 20px; }
-          #section-3 article > section div section i {
-            font-size: 1.875rem; }
-          #section-3 article > section div section h2 {
-            font-weight: 400;
-            margin: 0px 0 0 10px; }
-        #section-3 article > section div p {
-          font-weight: 400; }
-    #section-3 article > section:nth-child(1) {
-      background-color: #fff; }
-      #section-3 article > section:nth-child(1) div:nth-child(1) {
-        background-color: #f2f3f7; }
-        #section-3 article > section:nth-child(1) div:nth-child(1) h1 {
-          color: #56c4cf; }
-      #section-3 article > section:nth-child(1) div:nth-child(2) {
-        background-color: #fff;
-        color: #000; }
-    #section-3 article > section:nth-child(2) div:nth-child(1) {
-      background-color: #306b71; }
-      #section-3 article > section:nth-child(2) div:nth-child(1) h1 {
-        color: #fff; }
-    #section-3 article > section:nth-child(2) div:nth-child(2) {
-      background-color: #459ca6; }
+    #section-3 .grid-content section {
+      grid-area: section-3;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #692b88; }
+      #section-3 .grid-content section div {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 20px; }
+        #section-3 .grid-content section div i {
+          color: #000;
+          font-size: 2.5rem;
+          margin: 0 10px; }
+      #section-3 .grid-content section article {
+        border-top: 1px solid #000;
+        margin-top: 20px;
+        padding-top: 10px; }
+        #section-3 .grid-content section article h3 {
+          color: #692b88;
+          margin-bottom: 10px; }
+        #section-3 .grid-content section article ul {
+          text-align: left; }
+          #section-3 .grid-content section article ul li {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: left;
+            align-items: flex-start; }
+            #section-3 .grid-content section article ul li h5 {
+              margin-right: 10px; }
 
 /* =============
-   Section 4
+    Section 4
 ============= */
-#section-4 #kit-vs-index {
+#section-4 .content-grid {
   display: grid;
-  grid-gap: 3%;
-  grid-template-areas: "file-title file-title file-title" "file-nav file-nav file-nav" "left middle right";
-  grid-template-columns: 41% auto 41%;
+  grid-template-areas: ". section-4 .";
+  grid-template-columns: auto 600px auto;
   text-align: center; }
-  #section-4 #kit-vs-index #file-title {
-    grid-area: file-title; }
-  #section-4 #kit-vs-index #file-nav {
-    grid-area: file-nav; }
-    #section-4 #kit-vs-index #file-nav nav {
-      margin-bottom: 40px; }
-      #section-4 #kit-vs-index #file-nav nav ul {
-        display: flex;
-        justify-content: center; }
-        #section-4 #kit-vs-index #file-nav nav ul li {
-          border-right: 1px solid #fff; }
-          #section-4 #kit-vs-index #file-nav nav ul li button {
-            background-color: #56c4cf;
-            border: none;
-            color: #fff;
-            padding: 10px 20px;
-            transition: 0.25s; }
-            #section-4 #kit-vs-index #file-nav nav ul li button i {
-              color: #306b71;
-              padding: 0 10px; }
-          #section-4 #kit-vs-index #file-nav nav ul li button:hover {
-            background-color: #306b71; }
-            #section-4 #kit-vs-index #file-nav nav ul li button:hover i {
-              color: #fff; }
-          #section-4 #kit-vs-index #file-nav nav ul li .selected-file {
-            background-color: #459ca6 !important; }
-  #section-4 #kit-vs-index .kit-title-container {
-    padding-bottom: 10px; }
-    #section-4 #kit-vs-index .kit-title-container h1 {
-      color: #56c4cf; }
-    #section-4 #kit-vs-index .kit-title-container p {
-      font-size: 0.875rem;
-      font-weight: 300; }
-  #section-4 #kit-vs-index article section {
-    border-bottom: 1px solid #c9cbcb;
-    border-top: 1px solid #c9cbcb;
-    margin-bottom: 20px;
-    padding: 10px 0; }
-    #section-4 #kit-vs-index article section p {
-      font-size: 0.875rem; }
-    #section-4 #kit-vs-index article section .folder-container {
-      display: flex;
-      justify-content: center; }
-      #section-4 #kit-vs-index article section .folder-container div {
-        display: flex; }
-        #section-4 #kit-vs-index article section .folder-container div i {
+  #section-4 .content-grid > div {
+    grid-area: section-4; }
+    #section-4 .content-grid > div .instructions {
+      margin-top: 20px; }
+      #section-4 .content-grid > div .instructions div {
+        background-color: #692b88;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center; }
+        #section-4 .content-grid > div .instructions div h1 {
           font-size: 1.5625rem;
-          margin-right: 10px;
-          padding: 0; }
-        #section-4 #kit-vs-index article section .folder-container div h2 {
-          font-size: 1.25rem;
-          font-weight: 400; }
-      #section-4 #kit-vs-index article section .folder-container i {
-        padding: 5px 10px 0; }
-  #section-4 #kit-vs-index #conversion-icon {
-    align-items: center;
-    display: flex;
-    justify-content: center; }
-    #section-4 #kit-vs-index #conversion-icon > div {
-      align-items: center;
-      border: 3px solid #c9cbcb;
-      border-radius: 100px;
-      color: #56c4cf;
-      display: flex;
-      font-size: 2.8125rem;
-      height: 100px;
-      justify-content: center;
-      margin: 0 auto;
-      width: 100px; }
+          color: #fff; }
+    #section-4 .content-grid > div article a:link,
+    #section-4 .content-grid > div article a:visited {
+      background-color: #000;
+      color: #fff;
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px; }
+      #section-4 .content-grid > div article a:link i,
+      #section-4 .content-grid > div article a:visited i {
+        color: #fff;
+        margin-right: 10px; }
+    #section-4 .content-grid > div article a:hover,
+    #section-4 .content-grid > div article a:active {
+      background-color: #692b88; }
+      #section-4 .content-grid > div article a:hover i,
+      #section-4 .content-grid > div article a:active i {
+        color: #fff; }
+
+#section-4 .image-grid {
+  text-align: center; }
+  #section-4 .image-grid img {
+    margin-top: 20px;
+    width: 60%; }
+
+/* =============
+    Section 5
+============= */
+#section-5 {
+  background-color: #f2f3f7; }
+  #section-5 .content-grid {
+    display: grid;
+    grid-template-areas: ". section-5 .";
+    grid-template-columns: auto 600px auto;
+    text-align: center; }
+    #section-5 .content-grid > div {
+      grid-area: section-5; }
+      #section-5 .content-grid > div .instructions {
+        margin-top: 20px; }
+        #section-5 .content-grid > div .instructions div {
+          background-color: #692b88;
+          margin-bottom: 20px;
+          padding: 10px;
+          text-align: center; }
+          #section-5 .content-grid > div .instructions div h1 {
+            font-size: 1.5625rem;
+            color: #fff; }
+  #section-5 .image-grid {
+    text-align: center; }
+    #section-5 .image-grid img {
+      margin-top: 20px;
+      width: 60%; }
+
+/* =============
+    Section 6
+============= */
+#section-6 .content-grid {
+  display: grid;
+  grid-template-areas: ". section-6 .";
+  grid-template-columns: auto 600px auto;
+  text-align: center; }
+  #section-6 .content-grid > div {
+    grid-area: section-6; }
+    #section-6 .content-grid > div .instructions {
+      margin-top: 20px; }
+      #section-6 .content-grid > div .instructions div {
+        background-color: #692b88;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center; }
+        #section-6 .content-grid > div .instructions div h1 {
+          font-size: 1.5625rem;
+          color: #fff; }
+
+#section-6 .image-grid {
+  text-align: center; }
+  #section-6 .image-grid img {
+    margin-top: 20px;
+    width: 60%; }
+
+/* =============
+    Section 7
+============= */
+#section-7 {
+  background-color: #f2f3f7; }
+  #section-7 .content-grid {
+    display: grid;
+    grid-template-areas: ". section-7 .";
+    grid-template-columns: auto 600px auto;
+    text-align: center; }
+    #section-7 .content-grid > div {
+      grid-area: section-7; }
+      #section-7 .content-grid > div .instructions {
+        margin-top: 20px; }
+        #section-7 .content-grid > div .instructions div {
+          background-color: #692b88;
+          margin-bottom: 20px;
+          padding: 10px;
+          text-align: center; }
+          #section-7 .content-grid > div .instructions div h1 {
+            font-size: 1.5625rem;
+            color: #fff; }
+      #section-7 .content-grid > div p:last-of-type {
+        margin-top: 10px; }
+  #section-7 .image-grid {
+    text-align: center; }
+    #section-7 .image-grid img {
+      margin-top: 20px;
+      width: 60%; }
+
+/* =============
+    Section 8
+============= */
+#section-8 .content-grid {
+  display: grid;
+  grid-template-areas: ". section-8 .";
+  grid-template-columns: auto 600px auto;
+  text-align: center; }
+  #section-8 .content-grid > div {
+    grid-area: section-8; }
+    #section-8 .content-grid > div .instructions {
+      margin-top: 20px; }
+      #section-8 .content-grid > div .instructions div {
+        background-color: #692b88;
+        margin-bottom: 20px;
+        padding: 10px;
+        text-align: center; }
+        #section-8 .content-grid > div .instructions div h1 {
+          font-size: 1.5625rem;
+          color: #fff; }
+
+#section-8 .image-grid {
+  text-align: center; }
+  #section-8 .image-grid img {
+    margin-top: 20px;
+    width: 60%; }

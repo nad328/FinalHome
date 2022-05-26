@@ -368,8 +368,4 @@ p {
    Banner
 ============= */
 #Banner #Welcome {
-  width: 75vw;
-  height: 25vh;
-  background-size: cover;
-  background-position: left;
   background-image: url("../img/icons/banner.png"); }

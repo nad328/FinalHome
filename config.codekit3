@@ -9,14 +9,6 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
-    "\/assets\/screens.psd" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/screens.psd",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -269,6 +261,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/nav.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/nav.html",
+      "oF" : 0
+    },
     "\/dev\/content\/Banner.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -494,7 +494,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/Banner.css",
       "oF" : 0,
       "oS" : 0,
